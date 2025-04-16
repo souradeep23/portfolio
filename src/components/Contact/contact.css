@@ -1,0 +1,231 @@
+/* contact.css */
+
+#clients, #contact {
+  scroll-margin-top: 6rem; /* Adjust if your navbar is taller/shorter */
+}
+
+.contactPage {
+  padding: 4rem 2rem;
+}
+
+.clients {
+  margin-bottom: 6rem;
+}
+
+
+.contactPage {
+  padding: 4rem 2rem;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.contactPageTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.clientDesc {
+  font-size: 1.1rem;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.clientImgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  padding: 0 2rem;
+}
+
+.clientImgWrapper {
+  position: relative;
+  max-width: 220px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientImgWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.clientImg {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 12px;
+}
+
+.clientImgWrapper:hover .overlay {
+  opacity: 1;
+}
+
+/* Contact Section */
+.contactSection {
+  margin-top: 15rem; /* gives a bit more breathing room */
+  text-align: center;
+}
+
+
+
+.contactDesc {
+  font-size: 1.1rem;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactInput,
+.contactMessage {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contactInput::placeholder,
+.contactMessage::placeholder {
+  color: #888;
+}
+
+.contactInput:focus,
+.contactMessage:focus {
+  box-shadow: 0 0 0 2px #ffd700;
+}
+
+/* Bounce Effect */
+.bounce:hover {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Submit Button */
+.contactButton {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd700;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contactButton:hover {
+  background-color: #e6c200;
+  transform: translateY(-2px);
+}
+
+/* Social Icons */
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.iconWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.contactIcon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.contactIcon:hover {
+  transform: scale(1.2);
+}
+
+.iconOverlay {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 215, 0, 0.9);
+  color: #000;
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.iconWrapper:hover .iconOverlay {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-5px);
+}
+#contact {
+  scroll-margin-top: 6rem; /* Prevent sticky navbar overlap */
+}
+#contact {
+  scroll-margin-top: 6rem;
+}
