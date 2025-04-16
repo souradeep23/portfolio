@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a89041d3.css",
+    "main.js": "/portfolio/static/js/main.79a34fb2.js",
+    "static/media/50A52988-2855-4CC2-B00A-2AB5897A960A.png": "/portfolio/static/media/50A52988-2855-4CC2-B00A-2AB5897A960A.f41678db855e0747668a.png",
+    "static/media/keynote.png": "/portfolio/static/media/keynote.19d778d47d5a6f451334.png",
+    "static/media/Picture4.png": "/portfolio/static/media/Picture4.7ac4912552b74ea7f8ae.png",
+    "static/media/Picture5.png": "/portfolio/static/media/Picture5.27589d85a1cfa19c9c44.png",
+    "static/media/Picture1.png": "/portfolio/static/media/Picture1.71dbc895ec74707fdb42.png",
+    "static/media/Picture3.png": "/portfolio/static/media/Picture3.7c10bd2cef2fecc223fa.png",
+    "static/media/Picture6.png": "/portfolio/static/media/Picture6.935b8b1270e03efa18e2.png",
+    "static/media/WebDesign.png": "/portfolio/static/media/WebDesign.4a6b8e64acd6262c5d0c.png",
+    "static/media/KnineNGO.png": "/portfolio/static/media/KnineNGO.cdcd87bf164259d6e7f7.png",
+    "static/media/Instagram.png": "/portfolio/static/media/Instagram.5a6a8d938e048c3fe4a1.png",
+    "static/media/Planetspark.png": "/portfolio/static/media/Planetspark.d7fa87608b7605d04b71.png",
+    "static/media/Picture2.png": "/portfolio/static/media/Picture2.dd446564449a9ea35463.png",
+    "static/media/Contact.png": "/portfolio/static/media/Contact.0ce3e53cafa2ee6d04b5.png",
+    "static/media/hire me.png": "/portfolio/static/media/hire me.533b3eb235e966b7b9ec.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.c69515757e7e1673b9fa.png",
+    "static/media/Whatsapp.png": "/portfolio/static/media/Whatsapp.4b6813cecb8c6ba8b2c4.png",
+    "static/media/Yhills.png": "/portfolio/static/media/Yhills.4d3b2cae46ce1eeb61e6.png",
+    "index.html": "/portfolio/index.html",
+    "main.a89041d3.css.map": "/portfolio/static/css/main.a89041d3.css.map",
+    "main.79a34fb2.js.map": "/portfolio/static/js/main.79a34fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a89041d3.css",
+    "static/js/main.79a34fb2.js"
+  ]
+}
